@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
+
+
+
+.main-header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+    // we can use operators in sass 
+h1{
+    color: orange;
+    font-weight: 800;
+    font-size: 5rem + 5rem;
+}
+// we can use nesting in sass
+p{
+    color: $bg-color;
+    font-weight: 800;
+    font-size: 5rem + 5rem;
+}
+
+}
+
